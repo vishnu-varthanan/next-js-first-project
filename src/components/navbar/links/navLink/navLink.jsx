@@ -11,7 +11,6 @@ const NavLink = ({ item }) => {
       href={path}
       className={`${styles.container} ${pathName === path && styles.active}`}
     >
-      {" "}
       {title}
     </Link>
   );
